@@ -28,3 +28,9 @@ Each server is independently listed in the official MCP registry and has its own
 - HTTP Status: https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/http-status/mcp (`io.github.sadri-dridi/http-status`)
 - IANA Zones: https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/iana-zones/mcp (`io.github.sadri-dridi/iana-zones`)
 - Robots Inspect: https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/robots-inspect/mcp (`io.github.sadri-dridi/robots-inspect`)
+
+## Cursor
+
+One-click: [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=open-agent-utility-index&config=eyJ1cmwiOiJodHRwczovL2FnZW50LW9ic2VydmF0b3J5LXNlbnNvci5ub2xpbWl0LW9ic2VydmF0b3J5LndvcmtlcnMuZGV2L2MvY3Vyc29yL21jcCJ9)
+
+Remote MCP for Cursor installs: https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/cursor/mcp

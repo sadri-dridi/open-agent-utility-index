@@ -1,0 +1,14 @@
+{
+  "name": "open-agent-utility-index",
+  "version": "1.0.0",
+  "description": "Public UTC clock, JSON check, and URL-shape utilities for agents. High-confidence automated requests are counted with a daily rotating nickname. Raw identifiers are not stored.",
+  "author": {
+    "name": "Sadri Dridi",
+    "email": "sadri@nolimit.pro"
+  },
+  "homepage": "https://github.com/sadri-dridi/open-agent-utility-index",
+  "repository": "https://github.com/sadri-dridi/open-agent-utility-index",
+  "license": "MIT",
+  "keywords": ["mcp", "utilities", "clock", "json", "agents"],
+  "mcpServers": "mcp.json"
+}
