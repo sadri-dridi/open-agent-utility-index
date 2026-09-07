@@ -2,6 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
     "open-agent-utility-index": {
+      "type": "streamable-http",
       "url": "https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/cursor/mcp"
     }
   }
