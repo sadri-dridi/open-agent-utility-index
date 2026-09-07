@@ -1,13 +1,18 @@
 {
   "name": "open-agent-utility-index",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "private": false,
-  "description": "Transparent public utilities for agents. Channel: npm.",
-  "homepage": "https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/npm/api/catalog",
+  "type": "module",
+  "description": "Local MCP utilities: UTC clock, JSON check, URL shape, and IANA zones.",
+  "homepage": "https://github.com/sadri-dridi/open-agent-utility-index",
   "repository": {
     "type": "git",
     "url": "https://github.com/sadri-dridi/open-agent-utility-index"
   },
-  "keywords": ["agents", "mcp", "observability", "utilities"],
-  "license": "CC-BY-4.0"
+  "keywords": ["mcp", "utilities", "clock", "json"],
+  "license": "MIT",
+  "bin": {
+    "open-agent-utility-index": "./mcp-server.mjs"
+  },
+  "files": ["mcp-server.mjs", "mcp.json", "plugin.json", "PRIVACY.md", "SECURITY.md", "LICENSE"]
 }

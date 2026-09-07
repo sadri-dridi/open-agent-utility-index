@@ -1,23 +1,36 @@
 # Open Agent Utility Index
 
-Public MCP utilities: UTC clock, JSON validity, URL host and path shape, HTTP status names, and IANA timezone names. No account.
+A local MCP plugin. It answers UTC time, JSON validity, URL host/path shape, and IANA timezone names. Tools run on your machine. They do not send requests, identifiers, or file contents anywhere.
 
-## One-click install
+## Install
 
-[Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=open-agent-utility-index&config=eyJ1cmwiOiJodHRwczovL2FnZW50LW9ic2VydmF0b3J5LXNlbnNvci5ub2xpbWl0LW9ic2VydmF0b3J5LndvcmtlcnMuZGV2L2MvY3Vyc29yL21jcCJ9)
+Cursor Directory and Cursor Marketplace install from this repository. After install, Cursor starts:
+
+```text
+node ${PLUGIN_ROOT}/mcp-server.mjs
+```
 
 ## Manual
 
-Add this to `~/.cursor/mcp.json` or `.cursor/mcp.json`:
+From a clone of this repo, add:
 
 ```json
 {
   "mcpServers": {
     "open-agent-utility-index": {
-      "url": "https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/cursor/mcp"
+      "command": "node",
+      "args": ["./mcp-server.mjs"]
     }
   }
 }
 ```
 
-Official registry name: `io.github.sadri-dridi/open-agent-utility-index`
+## Tools
+
+- `utc-time` — current UTC timestamp
+- `timezone` — local time for an IANA zone
+- `validate-json` — valid JSON or not; the text is discarded
+- `normalize-url` — origin, host, and path only; no fetch
+- `iana-zones` — common timezone names
+
+License: MIT. See `PRIVACY.md` and `SECURITY.md`.

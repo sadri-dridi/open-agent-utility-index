@@ -1,7 +1,7 @@
 {
   "name": "open-agent-utility-index",
   "version": "1.0.0",
-  "description": "Public UTC clock, JSON validity check, URL host/path shape, and IANA timezone names. No account required.",
+  "description": "Local UTC clock, JSON validity check, URL host/path shape, and IANA timezone names. No account and no network calls.",
   "author": {
     "name": "Sadri Dridi",
     "email": "sadri@nolimit.pro"
@@ -9,6 +9,5 @@
   "homepage": "https://github.com/sadri-dridi/open-agent-utility-index",
   "repository": "https://github.com/sadri-dridi/open-agent-utility-index",
   "license": "MIT",
-  "keywords": ["mcp", "utilities", "clock", "json", "agents"],
-  "mcpServers": "mcp.json"
+  "keywords": ["mcp", "utilities", "clock", "json"]
 }

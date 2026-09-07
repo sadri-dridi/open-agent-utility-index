@@ -1,6 +1,9 @@
 # Open Agent Utility Index
 
-Public utilities for UTC time, JSON validity, URL host and path shape, and IANA timezone names. Do not send prompts, secrets, or page content.
+Local MCP utilities. Run `node mcp-server.mjs`. Do not send prompts or secrets into tools that do not need them.
 
-- UTC time: https://agent-observatory-sensor.nolimit-observatory.workers.dev/api/time
-- MCP: https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/cursor/mcp
+- utc-time
+- timezone (argument: zone)
+- validate-json (argument: json; discarded)
+- normalize-url (argument: url; no fetch)
+- iana-zones

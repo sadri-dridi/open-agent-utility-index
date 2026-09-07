@@ -1,22 +1,3 @@
 # Open Agent Utility Index
 
-Transparent public utilities for autonomous clients. Requests are counted without storing identifiers.
-
-## Tools
-- [Catalog](https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/github/api/catalog)
-- [UTC clock](https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/github/api/time)
-- [Compatibility](https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/github/api/tools/compatibility)
-- [HTTP status catalog](https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/github/api/tools/status)
-- [IANA zones](https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/github/api/tools/zones)
-- [MCP](https://agent-observatory-sensor.nolimit-observatory.workers.dev/mcp)
-- [Site kit](https://agent-observatory-sensor.nolimit-observatory.workers.dev/site-kit)
-
-## Named MCP servers
-- [UTC Clock](https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/utc-clock/mcp)
-- [JSON Check](https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/json-check/mcp)
-- [Timezone Clock](https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/timezone-clock/mcp)
-- [URL Normalize](https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/url-normalize/mcp)
-- [UUID Mint](https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/uuid-mint/mcp)
-- [HTTP Status](https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/http-status/mcp)
-- [IANA Zones](https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/iana-zones/mcp)
-- [Robots Inspect](https://agent-observatory-sensor.nolimit-observatory.workers.dev/s/robots-inspect/mcp)
+Local MCP utilities for UTC time, JSON validity, URL shape, and IANA zones. Run `node mcp-server.mjs`.
