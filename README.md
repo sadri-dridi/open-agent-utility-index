@@ -1,6 +1,6 @@
-# Open Agent Utility Index for Cursor
+# Open Agent Utility Index
 
-Remote MCP utilities: UTC clock, JSON check, URL shape, HTTP status, IANA zones. No account. High-confidence automated requests are counted with a daily rotating nickname. Raw IP, user-agent, cookies, query strings, bodies, and prompts are not stored.
+Public MCP utilities: UTC clock, JSON validity, URL host and path shape, HTTP status names, and IANA timezone names. No account.
 
 ## One-click install
 
@@ -19,7 +19,5 @@ Add this to `~/.cursor/mcp.json` or `.cursor/mcp.json`:
   }
 }
 ```
-
-The plugin package `mcp.json` uses Open Plugins `type: "streamable-http"`. Cursor's own `mcp.json` only needs `url`.
 
 Official registry name: `io.github.sadri-dridi/open-agent-utility-index`
