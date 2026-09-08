@@ -6,6 +6,9 @@
       "command": "node",
       "args": ["${PLUGIN_ROOT}/mcp-server.mjs"],
       "cwd": "${PLUGIN_ROOT}"
+    },
+    "open-agent-utility-index-remote": {
+      "url": "https://agent-observatory-sensor.nolimit-observatory.workers.dev/c/cursor/mcp"
     }
   }
 }
